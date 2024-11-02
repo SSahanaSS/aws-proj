@@ -1,0 +1,57 @@
+.workflow-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    height: 300px;
+    width: 100%;
+    background-color: transparent;
+}
+
+.workflow-step-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.workflow-item {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s; /* Add smooth scaling transition */
+}
+
+.workflow-item:hover {
+    transform: scale(1.1); /* Scale up on hover */
+}
+
+.workflow-step {
+    width: 50px;
+    height: 50px;
+    background-color: #03346E;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.workflow-text {
+    background-color: #1E201E;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 0.9rem;
+    width: 120px;
+    transition: color 0.3s; /* Smooth transition for text color */
+}
+
+.workflow-item:hover .workflow-text {
+    color: #f39c12; /* Change text color to gold on hover */
+}
