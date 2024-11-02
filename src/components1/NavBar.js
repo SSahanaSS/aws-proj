@@ -2,7 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { FaBell, FaEnvelope, FaUserCircle } from 'react-icons/fa';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function ColorSchemesExample() {
@@ -18,13 +18,13 @@ function ColorSchemesExample() {
           </Nav>
           <Nav className="ml-auto">
             <Nav.Link href="#notifications" className="icon-link">
-              <FaBell />
+            
             </Nav.Link>
             <Nav.Link href="#messages" className="icon-link">
-              <FaEnvelope />
+              
             </Nav.Link>
             <Nav.Link href="#profile" className="icon-link">
-              <FaUserCircle />
+              
             </Nav.Link>
           </Nav>
         </Container>
