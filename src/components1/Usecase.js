@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaUserTie, FaBuilding, FaCalculator } from 'react-icons/fa';
+
 
 function UseCases() {
   const containerStyle = {
@@ -33,17 +33,17 @@ function UseCases() {
       <h2 style={{ color: '#F3FDE8', marginBottom: '30px' }}>Use Cases</h2>
 
       <div style={{ ...useCaseStyle, backgroundColor: '#FFCCEA' }}> {/* Pink background */}
-        <FaUserTie style={iconStyle} />
+        
         <span>Personal Banking</span>
       </div>
 
       <div style={{ ...useCaseStyle, backgroundColor: '#f39c12' }}> {/* Gold background */}
-        <FaBuilding style={iconStyle} />
+        
         <span>Corporate Transactions</span>
       </div>
 
       <div style={{ ...useCaseStyle, backgroundColor: '#BFECFF' }}> {/* Blue background */}
-        <FaCalculator style={iconStyle} />
+        
         <span>Automated Accounting</span>
       </div>
     </div>
